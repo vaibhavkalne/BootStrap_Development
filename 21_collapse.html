@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="bootstrap/css/fontawesome-all.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap/css/mdb.css">
+    <link rel="stylesheet" href="bootstrap/css/style.css">
+    <title>Collapse in Bootstrap4</title>
+    <style>
+        .text-teal{
+            color:#00796b;
+        }
+    </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Collapse in Bootstrap4</a>
+    <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+</nav>
+
+<div class="container mt-5">
+    <!--########################START HERE#########################-->
+
+    <!-- BUTTON WITH COLLAPSE -->
+    <button type="button" class="btn btn-teal" data-toggle="collapse" data-target="#ui-card">UI DEvelopment</button>
+    <div class="collapse animated rotateIn" id="ui-card">
+        <div class="card">
+            <div class="card-body text-teal">
+                <h3>UI Development</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda deleniti ducimus ipsa maxime omnis, quos. Ab ad animi commodi consequatur culpa cumque delectus dignissimos dolorum hic laborum laudantium libero, natus, nihil nulla omnis qui sed sequi totam vero voluptate voluptatem.</p>
+
+            </div>
+
+        </div>
+    </div>
+
+    <!-- ACCORDION -->
+  </div>
+
+  <div style="margin-top:500px;"></div>
+
+<!-- BODY ENDS -->
+<script src="bootstrap/js/fontawesome-all.js"></script>
+<script src="bootstrap/js/jquery-3.2.1.min.js"></script>
+<script src="bootstrap/js/popper.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<script src="bootstrap/js/mdb.min.js"></script>
+</body>
+</html>
